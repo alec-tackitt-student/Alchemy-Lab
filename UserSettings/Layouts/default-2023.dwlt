@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 19
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -754,9 +754,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 6.166208, y: 2.329541, z: -23.22303}
+    m_Target: {x: 9.877308, y: 5.497147, z: -34.256275}
     speed: 2
-    m_Value: {x: 6.166208, y: 2.329541, z: -23.22303}
+    m_Value: {x: 9.877308, y: 5.497147, z: -34.256275}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -804,11 +804,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.00017914233, y: -0.99805456, z: -0.0026845254, w: 0.062065843}
     speed: 2
-    m_Value: {x: 0.00017914233, y: 0.9980546, z: 0.0026845257, w: -0.062065843}
+    m_Value: {x: -0.00017914233, y: -0.99805456, z: -0.0026845254, w: 0.062065933}
   m_Size:
-    m_Target: 16.153528
+    m_Target: 21.49798
     speed: 2
-    m_Value: 16.153528
+    m_Value: 21.49798
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -826,7 +826,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: -0.00017914233, y: -0.99805456, z: -0.0026845254, w: 0.062065843}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\altae9a\Documents\Unity Projects\Alchemy Lab
+  m_LastProjectPath: C:\Users\altae9a\Documents\GitHub\Alchemy-Lab
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
