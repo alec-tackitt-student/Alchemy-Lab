@@ -3739,11 +3739,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1358837549}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &574649956 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1358837549}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &574649957
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3781,22 +3776,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 574649956}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 908971901}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 574649958}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4387,11 +4370,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 753730199}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &627068628 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 753730199}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &627068629
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4429,22 +4407,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 627068628}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1892551847}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 627068630}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5625,11 +5591,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 220858398}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &780777614 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 220858398}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &780777615
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5667,22 +5628,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 780777614}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1512675193}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 780777616}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6275,6 +6224,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 904811010}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 904811013}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!4 &904811006 stripped
 Transform:
@@ -6317,9 +6269,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 904811010}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 904811013}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6327,17 +6279,25 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
   interactionText: i am a chair
+--- !u!114 &904811013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68619197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1 &907266653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1579489709}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &907266655 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1579489709}
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &907266656
@@ -6377,22 +6337,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 907266655}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1042346918}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 907266657}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10035,7 +9983,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1444390585252962155, guid: c9619f828c71e2e458677def1b900a3d, type: 3}
 --- !u!54 &1291752781
@@ -11014,11 +10962,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 319312394}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1414698535 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 319312394}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1414698536
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11056,22 +10999,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1414698535}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1284464977}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1414698537}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11345,11 +11276,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 487202427}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1438321260 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 487202427}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1438321261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11387,22 +11313,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1438321260}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1001972411}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1438321262}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11954,11 +11868,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 116459443}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1492414230 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 116459443}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1492414231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11996,22 +11905,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1492414230}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1433039860}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1492414232}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12024,11 +11921,6 @@ MonoBehaviour:
 --- !u!1 &1496788639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1589407702}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &1496788641 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1589407702}
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &1496788642
@@ -12053,7 +11945,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 638389728444433450, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
---- !u!114 &1496788643
+--- !u!114 &1496788645
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12068,22 +11960,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1496788641}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 819916609}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1496788645}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12092,7 +11972,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: Torch
+  interactionText: interactable Object
 --- !u!1001 &1496794736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12328,11 +12208,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 330040625}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1513973209 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 330040625}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1513973210
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12370,22 +12245,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1513973209}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 533423863}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1513973211}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12897,7 +12760,7 @@ PrefabInstance:
       addedObject: {fileID: 1496788642}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1496788643}
+      addedObject: {fileID: 1496788645}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1596094788
 PrefabInstance:
@@ -13505,22 +13368,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1697451498}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 191674898}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1697451496}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -13530,11 +13381,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
---- !u!33 &1697451498 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 955540115}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1699695217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -14107,11 +13953,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 207295792}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1808559733 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 207295792}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1808559734
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14149,22 +13990,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1808559733}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1545863179}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1808559735}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -14678,11 +14507,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1701052659}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1853397669 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1701052659}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1853397670
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14720,22 +14544,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1853397669}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1128291331}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1853397671}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15452,11 +15264,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1886363313}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1889339255 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1886363313}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1889339256
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15494,22 +15301,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889339255}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1819150140}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1889339257}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -15837,11 +15632,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1496794736}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &1921698873 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1496794736}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1921698874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15879,22 +15669,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1921698873}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 999516762}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1921698875}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -16781,11 +16559,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
   m_PrefabInstance: {fileID: 1200255201}
   m_PrefabAsset: {fileID: 0}
---- !u!33 &2067039657 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
-  m_PrefabInstance: {fileID: 1200255201}
-  m_PrefabAsset: {fileID: 0}
 --- !u!64 &2067039658
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16823,22 +16596,10 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2067039657}
-        m_TargetAssemblyTypeName: UnityEngine.MeshFilter, UnityEngine
-        m_MethodName: set_mesh
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Mesh, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1670584669}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 2067039659}
+        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
+        m_MethodName: ToggleTorch
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
