@@ -4,7 +4,11 @@ using UnityEngine.Events;
 
 public class InteractionObject : MonoBehaviour
 {
-    public UnityEvent
+    public UnityEvent onInteract = new UnityEvent();
+    [SerializeField] private string interactionText = "interactable Object";
+   
+
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +21,7 @@ public class InteractionObject : MonoBehaviour
         
     }
 
-    [SerializeField] private string interactionText = "interactable Object";
+    
 
     public string GetInteractionText()
     {
@@ -26,6 +30,7 @@ public class InteractionObject : MonoBehaviour
 
     public void Interact()
     {
-        print("interaction");
+       onInteract.Invoke();
     }
+    
 }
