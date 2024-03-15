@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ToggleTorch : MonoBehaviour
 {
     private bool torchLit = true;
     public Mesh newMesh;
@@ -18,7 +18,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
-    public void ToggleTorch()
+    public void toggleTorch()
     {
         MeshFilter meshFilter = GetComponent<MeshFilter>();
         Light light = GetComponentInChildren<Light>();
@@ -33,6 +33,7 @@ public class NewBehaviourScript : MonoBehaviour
             light.intensity = 0;
             torchLit = false;
         }
+
         else
         {
             Mesh temp = meshFilter.mesh;

@@ -32,8 +32,8 @@ public class InputHandler : MonoBehaviour
     }
     void HandlePlayerMovement()
     {
-        float forwardInput = Input.GetAxis("Vertical");
-        float rightInput = Input.GetAxis("Horizontal");
+        float forwardInput = Input.GetAxisRaw("Vertical");
+        float rightInput = Input.GetAxisRaw("Horizontal");
 
         playerMovement.AddMoveInput(forwardInput, rightInput);
     }
