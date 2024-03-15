@@ -425,6 +425,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9619f828c71e2e458677def1b900a3d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1291752779}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9619f828c71e2e458677def1b900a3d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1291752784}
   m_SourcePrefab: {fileID: 100100000, guid: c9619f828c71e2e458677def1b900a3d, type: 3}
 --- !u!4 &115233276 stripped
 Transform:
@@ -500,6 +503,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1492414232}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1492414235}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!4 &124628197 stripped
 Transform:
@@ -867,6 +873,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
       insertIndex: -1
       addedObject: {fileID: 914629256}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 914629261}
   m_SourcePrefab: {fileID: 100100000, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
 --- !u!4 &174018851 stripped
 Transform:
@@ -1097,6 +1106,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808559735}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808559738}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &207637975
 PrefabInstance:
@@ -1233,6 +1245,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 780777616}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 780777619}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &228663312
 PrefabInstance:
@@ -1301,7 +1316,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1024048270}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1024048271}
   m_SourcePrefab: {fileID: 100100000, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!1 &234480454
 GameObject:
@@ -1409,6 +1430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1297008020}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1297008025}
   m_SourcePrefab: {fileID: 100100000, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
 --- !u!4 &255935328 stripped
 Transform:
@@ -1961,6 +1985,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1414698537}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1414698540}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1 &328096094 stripped
 GameObject:
@@ -2041,6 +2068,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1513973211}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1513973214}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &331019971
 PrefabInstance:
@@ -2177,12 +2207,55 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6580515b0a5d65543bdce94f7da3f7dd, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1867117039}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6580515b0a5d65543bdce94f7da3f7dd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1867117044}
   m_SourcePrefab: {fileID: 100100000, guid: 6580515b0a5d65543bdce94f7da3f7dd, type: 3}
 --- !u!4 &350342865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6580515b0a5d65543bdce94f7da3f7dd, type: 3}
   m_PrefabInstance: {fileID: 350342864}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &350863910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+  m_PrefabInstance: {fileID: 1550360981}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &350863914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350863910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 0}
+--- !u!64 &350863915
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350863910}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3329902420748629119, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!4 &356524490 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493311760772728596, guid: a5c3cb04b17d71c4aac797e6242f5e03, type: 3}
@@ -2571,6 +2644,85 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5c3cb04b17d71c4aac797e6242f5e03, type: 3}
+--- !u!1 &435962118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435962119}
+  - component: {fileID: 435962121}
+  - component: {fileID: 435962120}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &435962119
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435962118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1491131245}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &435962120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435962118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.85882354, g: 0.3019608, b: 0.3019608, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 35
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 7
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: .
+--- !u!222 &435962121
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435962118}
+  m_CullTransparentMesh: 1
 --- !u!1001 &437290503
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2640,6 +2792,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
       insertIndex: -1
       addedObject: {fileID: 631214443}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 631214448}
   m_SourcePrefab: {fileID: 100100000, guid: 0cbe24acfd8d39b4e910b6fb40de4b79, type: 3}
 --- !u!4 &437290504 stripped
 Transform:
@@ -2796,6 +2951,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1438321262}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1438321265}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &496501510
 PrefabInstance:
@@ -2858,6 +3016,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53ce2a1337db37e40a808fedfd315d42, type: 3}
+--- !u!1 &498144412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+  m_PrefabInstance: {fileID: 819866797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &498144416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498144412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 0}
+--- !u!64 &498144417
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498144412}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3329902420748629119, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!1001 &501520071
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2989,6 +3187,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1623928381}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1623928383}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &509332176 stripped
 GameObject:
@@ -3389,6 +3590,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4003b813a5798e5429d39b0f7e76ccda, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1908124555}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4003b813a5798e5429d39b0f7e76ccda, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1908124560}
   m_SourcePrefab: {fileID: 100100000, guid: 4003b813a5798e5429d39b0f7e76ccda, type: 3}
 --- !u!4 &548160717 stripped
 Transform:
@@ -3651,6 +3855,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
       insertIndex: -1
       addedObject: {fileID: 562516884}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 562516889}
   m_SourcePrefab: {fileID: 100100000, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
 --- !u!4 &562516881 stripped
 Transform:
@@ -3721,9 +3928,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 562516886}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 562516889}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3734,6 +3941,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Jar
+--- !u!114 &562516889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328096094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &574649954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
@@ -3776,9 +3995,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 574649958}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 574649961}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3789,6 +4008,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &574649961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574649954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &584362400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4227,6 +4459,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1881110263}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1881110268}
   m_SourcePrefab: {fileID: 100100000, guid: b14b5c90b2c7ab04a8a22679bdcad752, type: 3}
 --- !u!4 &617867089 stripped
 Transform:
@@ -4407,9 +4642,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 627068630}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 627068633}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4420,6 +4655,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &627068633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627068626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &627841549
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4490,6 +4738,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1860212531}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860212533}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!4 &628160111 stripped
 Transform:
@@ -4570,9 +4821,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 631214445}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 631214448}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4583,6 +4834,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Flask
+--- !u!114 &631214448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631214440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &632487005 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
@@ -4608,9 +4871,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 632487007}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 632487009}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4620,7 +4883,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &632487008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4642,6 +4905,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &632487009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632487005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1 &645304182
 GameObject:
   m_ObjectHideFlags: 0
@@ -4814,9 +5090,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 682150495}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 682150497}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4826,7 +5102,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &682150496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4848,6 +5124,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &682150497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682150493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1001 &687950006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5285,6 +5574,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 627068630}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 627068633}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1 &758703308
 GameObject:
@@ -5628,9 +5920,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 780777616}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 780777619}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5641,6 +5933,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &780777619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780777612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!4 &782639446 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7520235134963108439, guid: 53ce2a1337db37e40a808fedfd315d42, type: 3}
@@ -5860,7 +6165,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 498144416}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 498144417}
   m_SourcePrefab: {fileID: 100100000, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!1 &819916609
 GameObject:
@@ -6281,7 +6592,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!114 &904811013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6337,9 +6648,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 907266657}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 907266660}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6350,6 +6661,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &907266660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907266653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1 &908971901
 GameObject:
   m_ObjectHideFlags: 0
@@ -6513,9 +6837,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 914629258}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 914629261}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6526,6 +6850,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Pyrimid Flask
+--- !u!114 &914629261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914629253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &922286196
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6728,6 +7064,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 682150495}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 682150497}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &947305987
 PrefabInstance:
@@ -6869,6 +7208,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1697451496}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1697451499}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &962386044
 PrefabInstance:
@@ -7174,6 +7516,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1189558884}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1189558886}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &989583481
 PrefabInstance:
@@ -7692,6 +8037,46 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7520235134963108439, guid: 53ce2a1337db37e40a808fedfd315d42, type: 3}
   m_PrefabInstance: {fileID: 2124540684}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1024048266 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+  m_PrefabInstance: {fileID: 228663312}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1024048270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024048266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 0}
+--- !u!64 &1024048271
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024048266}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3329902420748629119, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!1 &1031247349
 GameObject:
   m_ObjectHideFlags: 0
@@ -8126,6 +8511,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1060584700}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1060584705}
   m_SourcePrefab: {fileID: 100100000, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
 --- !u!4 &1060584697 stripped
 Transform:
@@ -8196,9 +8584,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1060584702}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1060584705}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8209,6 +8597,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Vial
+--- !u!114 &1060584705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789375229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1070665360
 GameObject:
   m_ObjectHideFlags: 0
@@ -8376,6 +8776,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 632487007}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 632487009}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1079698921
 PrefabInstance:
@@ -9132,9 +9535,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1189558884}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 1189558886}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9144,7 +9547,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &1189558885
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9166,6 +9569,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &1189558886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189558882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!4 &1199179825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -9245,6 +9661,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2067039659}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2067039662}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1222786716
 PrefabInstance:
@@ -9597,6 +10016,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1260500495}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1260500500}
   m_SourcePrefab: {fileID: 100100000, guid: 109ac8b6d72991c4b8f90cfc2a00a7ec, type: 3}
 --- !u!4 &1260500492 stripped
 Transform:
@@ -9667,9 +10089,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1260500497}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1260500500}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9680,6 +10102,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Vial
+--- !u!114 &1260500500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034691001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1263239315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9951,9 +10385,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1291752779}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1291752784}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10013,6 +10447,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1291752784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291752776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1293595570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10148,9 +10594,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1297008022}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1297008025}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10161,6 +10607,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Flask
+--- !u!114 &1297008025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297008017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1303017756 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493311760772728596, guid: a5c3cb04b17d71c4aac797e6242f5e03, type: 3}
@@ -10289,6 +10747,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a95b732da08fff643aa6a5efd389aa79, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1327671322}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a95b732da08fff643aa6a5efd389aa79, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1327671327}
   m_SourcePrefab: {fileID: 100100000, guid: a95b732da08fff643aa6a5efd389aa79, type: 3}
 --- !u!4 &1327671319 stripped
 Transform:
@@ -10359,9 +10820,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1327671324}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1327671327}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10372,6 +10833,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Motar and Pestle
+--- !u!114 &1327671327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310915966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1331192847
 GameObject:
   m_ObjectHideFlags: 0
@@ -10567,6 +11040,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1543687846}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543687848}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1358837549
 PrefabInstance:
@@ -10637,6 +11113,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 574649958}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 574649961}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1363192185
 PrefabInstance:
@@ -10999,9 +11478,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1414698537}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1414698540}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11012,6 +11491,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1414698540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414698533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &1424134467
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11313,9 +11805,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1438321262}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1438321265}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11326,6 +11818,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1438321265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438321258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!4 &1439001679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7520235134963108439, guid: 53ce2a1337db37e40a808fedfd315d42, type: 3}
@@ -11488,9 +11993,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1474547970}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 1474547972}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11500,7 +12005,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &1474547971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11522,6 +12027,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &1474547972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474547968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1001 &1474884339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11851,6 +12369,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 18519586}
+  - {fileID: 435962119}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -11905,9 +12424,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1492414232}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1492414235}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11918,6 +12437,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1492414235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492414228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1 &1496788639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
@@ -11960,9 +12492,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1496788645}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1496788648}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11972,7 +12504,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Torch
+--- !u!114 &1496788648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496788639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &1496794736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12042,6 +12587,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1921698875}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1921698878}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1510337539
 PrefabInstance:
@@ -12245,9 +12793,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1513973211}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1513973214}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12258,6 +12806,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1513973214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376209816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!4 &1517005537 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493311760772728596, guid: a5c3cb04b17d71c4aac797e6242f5e03, type: 3}
@@ -12354,9 +12915,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1543687846}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 1543687848}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12366,7 +12927,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &1543687847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12388,6 +12949,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &1543687848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543687844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1 &1545863179
 GameObject:
   m_ObjectHideFlags: 0
@@ -12549,7 +13123,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 350863914}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 350863915}
   m_SourcePrefab: {fileID: 100100000, guid: 524d4f2a743cfa641b168b5b6b891228, type: 3}
 --- !u!4 &1550811501 stripped
 Transform:
@@ -12691,6 +13271,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 907266657}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 907266660}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1589407702
 PrefabInstance:
@@ -12761,6 +13344,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1496788645}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1496788648}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1596094788
 PrefabInstance:
@@ -12914,9 +13500,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1623928381}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 1623928383}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12926,7 +13512,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &1623928382
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12948,6 +13534,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &1623928383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623928379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1001 &1626133666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13078,6 +13677,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e47115d8c06c1674daffda18606f6d32, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1626834854}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e47115d8c06c1674daffda18606f6d32, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1626834859}
   m_SourcePrefab: {fileID: 100100000, guid: e47115d8c06c1674daffda18606f6d32, type: 3}
 --- !u!4 &1626834851 stripped
 Transform:
@@ -13148,9 +13750,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1626834856}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1626834859}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13161,6 +13763,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Vial
+--- !u!114 &1626834859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812604128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1653611408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
@@ -13368,9 +13982,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1697451496}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1697451499}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13381,6 +13995,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1697451499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697451492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!4 &1699695217 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -13455,6 +14082,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1853397671}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1853397674}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1001 &1702272551
 PrefabInstance:
@@ -13596,6 +14226,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1745418571}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1745418576}
   m_SourcePrefab: {fileID: 100100000, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
 --- !u!4 &1745418568 stripped
 Transform:
@@ -13666,9 +14299,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1745418573}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1745418576}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13679,6 +14312,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Pyrimid Flask
+--- !u!114 &1745418576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809599255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1754217594 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2493311760772728596, guid: a5c3cb04b17d71c4aac797e6242f5e03, type: 3}
@@ -13755,6 +14400,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
   m_PrefabInstance: {fileID: 1005344836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1788245635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1788245636}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788245636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788245635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.907878, y: -37.89972, z: -70.85037}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1791403948
 GameObject:
   m_ObjectHideFlags: 0
@@ -13990,9 +14666,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1808559735}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1808559738}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14003,6 +14679,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1808559738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808559731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &1813015555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14320,6 +15009,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 66a2cb6cd2190c54fa0d249645e5b01b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1821360462}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 66a2cb6cd2190c54fa0d249645e5b01b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1821360467}
   m_SourcePrefab: {fileID: 100100000, guid: 66a2cb6cd2190c54fa0d249645e5b01b, type: 3}
 --- !u!4 &1821360459 stripped
 Transform:
@@ -14390,9 +15082,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1821360464}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1821360467}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14403,6 +15095,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Alembic Retort
+--- !u!114 &1821360467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598201907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1829232833
 GameObject:
   m_ObjectHideFlags: 0
@@ -14544,9 +15248,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1853397671}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1853397674}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14557,6 +15261,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1853397674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853397667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &1856675921
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14643,9 +15360,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1860212531}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: MoveChair
+      - m_Target: {fileID: 1860212533}
+        m_TargetAssemblyTypeName: MoveChair, Assembly-CSharp
+        m_MethodName: moveChair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14655,7 +15372,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  interactionText: i am a chair
+  interactionText: Chair
 --- !u!65 &1860212532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14677,6 +15394,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
   m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
+--- !u!114 &1860212533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860212529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairMoved: 0
 --- !u!1 &1862150253
 GameObject:
   m_ObjectHideFlags: 0
@@ -14874,9 +15604,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1867117041}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1867117044}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14887,6 +15617,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Round Flask
+--- !u!114 &1867117044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867117036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1872921687
 GameObject:
   m_ObjectHideFlags: 0
@@ -15054,9 +15796,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1881110265}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1881110268}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15067,6 +15809,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Jar
+--- !u!114 &1881110268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881110260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1883499867
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15258,6 +16012,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1889339257}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1889339260}
   m_SourcePrefab: {fileID: 100100000, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
 --- !u!1 &1889339253 stripped
 GameObject:
@@ -15301,9 +16058,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1889339257}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1889339260}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15314,6 +16071,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1889339260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889339253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1 &1892551847
 GameObject:
   m_ObjectHideFlags: 0
@@ -15543,9 +16313,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1908124557}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 1908124560}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15556,6 +16326,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Square Flask
+--- !u!114 &1908124560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908124552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1921014455 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -15669,9 +16451,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1921698875}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 1921698878}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -15682,6 +16464,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &1921698878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921698871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1 &1923662654
 GameObject:
   m_ObjectHideFlags: 0
@@ -15931,6 +16726,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1474547970}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474547972}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &2003105140
 PrefabInstance:
@@ -16344,6 +17142,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2048909473}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2048909478}
   m_SourcePrefab: {fileID: 100100000, guid: 4e56e87f27c90d54e86ae264fc553f86, type: 3}
 --- !u!4 &2048909470 stripped
 Transform:
@@ -16414,9 +17215,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2048909475}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: PushObject
+      - m_Target: {fileID: 2048909478}
+        m_TargetAssemblyTypeName: ShelfPull, Assembly-CSharp
+        m_MethodName: shelfPull
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16427,6 +17228,18 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Pyrimid Flask
+--- !u!114 &2048909478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759877474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97a35992084d61a47a5d6072c9375b9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2059430115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16596,9 +17409,9 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2067039659}
-        m_TargetAssemblyTypeName: InteractionObject, Assembly-CSharp
-        m_MethodName: ToggleTorch
+      - m_Target: {fileID: 2067039662}
+        m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
+        m_MethodName: toggleTorch
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16609,6 +17422,19 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   interactionText: Torch
+--- !u!114 &2067039662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509332176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5d311bca40d554183b77af6efbffff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newMesh: {fileID: 2729540002022171593, guid: 94265714bef41b345bbfae422cc1149b, type: 3}
 --- !u!1001 &2067281870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17352,3 +18178,4 @@ SceneRoots:
   - {fileID: 550859342}
   - {fileID: 1491131245}
   - {fileID: 392002919}
+  - {fileID: 1788245636}
