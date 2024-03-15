@@ -13,15 +13,13 @@ public class InteractionObject : MonoBehaviour
     void Start()
     {
         
-    } 
-
-    // Update is called once per frame
-    void Update()
+    }
+    private void OnEnable()
     {
         
     }
 
-    
+
 
     public string GetInteractionText()
     {
