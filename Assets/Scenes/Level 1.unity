@@ -2511,6 +2511,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
   m_PrefabInstance: {fileID: 763945231}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &402462113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402462114}
+  - component: {fileID: 402462115}
+  m_Layer: 0
+  m_Name: Objective 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &402462114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402462113}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1788245636}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402462115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402462113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b0cc5b38dc814479ee39e38790b808, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectiveText: Clean up the dining table
+  completedText: completed objective
+  objectiveDisplay: {fileID: 1334339931}
+  OnCompleteObjective:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 346670201}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Main Screen
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!1001 &425029613
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3120,7 +3182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.644
+      value: 6.65
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3128,7 +3190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.601
+      value: 5.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4370,16 +4432,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b0cc5b38dc814479ee39e38790b808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: OBJ 3
+  objectiveText: Push all the chairs in
   completedText: completed objective
   objectiveDisplay: {fileID: 1334339931}
   OnCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346670201}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 402462113}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4960,6 +5022,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &632487008
 BoxCollider:
@@ -4994,7 +5080,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 0
 --- !u!1 &645304182
 GameObject:
   m_ObjectHideFlags: 0
@@ -5177,6 +5263,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &682150496
 BoxCollider:
@@ -5211,7 +5321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 1
 --- !u!1001 &687950006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6736,6 +6846,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Chair
 --- !u!114 &904811013
 MonoBehaviour:
@@ -6749,7 +6871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 1
 --- !u!1 &907266653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
@@ -9716,6 +9838,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &1189558885
 BoxCollider:
@@ -9750,7 +9896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 0
 --- !u!4 &1199179825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -10641,6 +10787,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1256012732}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Crucible
 --- !u!64 &1291752780
 MeshCollider:
@@ -11372,7 +11530,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 104.9, y: -60.6}
+  m_AnchoredPosition: {x: 163, y: -60.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1355375506
@@ -12472,6 +12630,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &1474547971
 BoxCollider:
@@ -12506,7 +12688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 1
 --- !u!1001 &1474884339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13333,6 +13515,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &1543687847
 BoxCollider:
@@ -13367,7 +13573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 1
 --- !u!1001 &1550360981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13819,6 +14025,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &1623928382
 BoxCollider:
@@ -13853,7 +14083,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 0
 --- !u!1001 &1626133666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14765,6 +14995,7 @@ Transform:
   - {fileID: 820042793}
   - {fileID: 1256012731}
   - {fileID: 606257810}
+  - {fileID: 402462114}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1791403948
@@ -15532,6 +15763,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 820042794}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 606257811}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   interactionText: Chair
 --- !u!65 &1860212532
 BoxCollider:
@@ -15566,7 +15821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chairMoved: 0
+  chairIn: 1
 --- !u!1 &1862150253
 GameObject:
   m_ObjectHideFlags: 0

@@ -25,11 +25,30 @@ public class Objective : MonoBehaviour
     {
         if (gameObject.activeSelf)
         {
-            //specific for making a mess
+
+            //specific for moving a chair (objective 1)
+
+            if (gameObject.name == "Objective 1")
+            {
+                if(MoveChair.firstObjectiveDone == false)
+                {
+                    objectiveDisplay.text = "";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+
+                    MoveChair.firstObjectiveDone = true;
+                }
+                else { return; }
+            }
+
+
+            //specific for making a mess (objective 2
             
             if (gameObject.name == "Objective 2")
             {
-                if(ShelfPull.itemsPulled == 15)
+                if (ShelfPull.itemsPulled == 15)
                 {
                     objectiveDisplay.text = "";
 
@@ -37,19 +56,24 @@ public class Objective : MonoBehaviour
 
                     gameObject.SetActive(false);
                 }
-                else
-                {
-                    return;
-                }
+                else { return; }
             }
+
+            //specific for pushing all chairs in (objective 3)
+            if (gameObject.name == "Objective 3")
+            {
+                if(MoveChair.chairsIn == 8) 
+                {
+                    objectiveDisplay.text = "";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+                }
+                else { return; }
+            }
+
             
-
-
-            objectiveDisplay.text = "";
-
-            OnCompleteObjective.Invoke();
-
-            gameObject.SetActive(false);
         }
     }
 }

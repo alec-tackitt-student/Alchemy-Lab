@@ -12,7 +12,7 @@ public class ShelfPull : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        itemsPulled = 0;
     }
 
     // Update is called once per frame
@@ -33,6 +33,7 @@ public class ShelfPull : MonoBehaviour
         body.AddExplosionForce(150f, vector3, 10f);
 
         hasBeenPulled = true;
+            print(itemsPulled);
         
        } 
     }
