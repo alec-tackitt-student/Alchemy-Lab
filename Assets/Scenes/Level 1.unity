@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -94,7 +94,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 1754e08fe6ff3d944abff4996b7f21c0, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 5d40756b90289344da1fe5d0aa629f3e, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 9da3d8d15e6a78b4aa9c8c1494d8da11, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1237,10 +1237,10 @@ MonoBehaviour:
   OnCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346670201}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 456112579}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3265,10 +3265,10 @@ MonoBehaviour:
   OnCompleteObjective:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 346670201}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 1506112216}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3583,13 +3583,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1623928382}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1623928381}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1623928383}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1623928386}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &509332176 stripped
 GameObject:
@@ -4429,6 +4429,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &574649961
 MonoBehaviour:
@@ -5156,6 +5168,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &627068633
 MonoBehaviour:
@@ -5236,13 +5260,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1860212532}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1860212531}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1860212533}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1860212536}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!4 &628160111 stripped
 Transform:
@@ -5423,8 +5447,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &632487008
-BoxCollider:
+--- !u!114 &632487009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632487005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 0
+--- !u!64 &632487012
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5441,22 +5478,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &632487009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 632487005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 0
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &645304182
 GameObject:
   m_ObjectHideFlags: 0
@@ -5664,8 +5689,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &682150496
-BoxCollider:
+--- !u!114 &682150497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682150493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 1
+--- !u!64 &682150500
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5682,22 +5720,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &682150497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682150493}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &687950006
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6519,6 +6545,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &780777619
 MonoBehaviour:
@@ -6974,7 +7012,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: small jar
 --- !u!64 &821495836
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7270,40 +7308,19 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 904811009}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 904811010}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 904811013}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 904811016}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!4 &904811006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
   m_PrefabInstance: {fileID: 904811005}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &904811009
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68619197}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
 --- !u!114 &904811010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7369,6 +7386,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chairIn: 1
+--- !u!64 &904811016
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68619197}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &907266653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
@@ -7414,6 +7453,18 @@ MonoBehaviour:
       - m_Target: {fileID: 907266660}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7849,7 +7900,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Crucible
 --- !u!114 &942373725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7930,13 +7981,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 682150496}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 682150495}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 682150497}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 682150500}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &947305987
 PrefabInstance:
@@ -8382,13 +8433,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1189558885}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1189558884}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1189558886}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1189558889}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &986028209
 GameObject:
@@ -9410,7 +9461,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: large Jar
 --- !u!64 &1054931021
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9776,13 +9827,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 632487008}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 632487007}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 632487009}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 632487012}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1079698921
 PrefabInstance:
@@ -10576,8 +10627,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &1189558885
-BoxCollider:
+--- !u!114 &1189558886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189558882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 0
+--- !u!64 &1189558889
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10594,22 +10658,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &1189558886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189558882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 0
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!4 &1199179825 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8772693995205182546, guid: 331d1418351a2864eb77c258c28e4583, type: 3}
@@ -11019,7 +11071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94b0cc5b38dc814479ee39e38790b808, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectiveText: Make a mess
+  objectiveText: Make a mess (off the shelf)
   completedText: completed objective
   objectiveDisplay: {fileID: 1334339931}
   OnCompleteObjective:
@@ -12308,7 +12360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 163, y: -60.6}
+  m_AnchoredPosition: {x: 194, y: -60.6}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1344917677 stripped
@@ -12369,7 +12421,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: tall vial
 --- !u!64 &1344917682
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12527,13 +12579,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1543687847}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1543687846}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1543687848}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1543687851}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1358837549
 PrefabInstance:
@@ -12987,7 +13039,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Square Flask
 --- !u!64 &1400342667
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13055,6 +13107,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1414698540}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13386,6 +13450,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &1438321265
 MonoBehaviour:
@@ -13517,7 +13593,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Pyrimid Flask
 --- !u!64 &1447402384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13668,8 +13744,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &1474547971
-BoxCollider:
+--- !u!114 &1474547972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474547968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 1
+--- !u!64 &1474547975
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13686,22 +13775,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &1474547972
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474547968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1474884339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14098,6 +14175,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &1492414235
 MonoBehaviour:
@@ -14157,6 +14246,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1496788648}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14231,6 +14332,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       propertyPath: m_Name
       value: Torch
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 18a03f460c7ffc54b978e3ea741fcc7a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14313,7 +14418,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Main Screen
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1001 &1510337539
 PrefabInstance:
@@ -14541,7 +14646,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Motar and pestle
 --- !u!114 &1512736370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14601,6 +14706,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1513973214}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -14696,8 +14813,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &1543687847
-BoxCollider:
+--- !u!114 &1543687848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543687844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 1
+--- !u!64 &1543687851
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14714,22 +14844,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &1543687848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543687844}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1550360981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15206,8 +15324,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &1623928382
-BoxCollider:
+--- !u!114 &1623928383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623928379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 0
+--- !u!64 &1623928386
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15224,22 +15355,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &1623928383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1623928379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 0
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &1626133666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15573,7 +15692,7 @@ Transform:
   m_GameObject: {fileID: 1670584669}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0, w: -0.70710677}
-  m_LocalPosition: {x: 0, y: 0.75, z: 0}
+  m_LocalPosition: {x: -0, y: 0.75, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15707,7 +15826,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: scale
 --- !u!114 &1686035863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15772,6 +15891,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1697451499}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -16000,7 +16131,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Scale
 --- !u!114 &1705743209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16979,7 +17110,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  interactionText: interactable Object
+  interactionText: Scale
 --- !u!114 &1838455158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17114,6 +17245,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &1853397674
 MonoBehaviour:
@@ -17190,8 +17333,21 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   interactionText: Chair
---- !u!65 &1860212532
-BoxCollider:
+--- !u!114 &1860212533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860212529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairIn: 1
+--- !u!64 &1860212536
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -17208,22 +17364,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.021020561, y: 0.02, z: 0.36463153}
-  m_Center: {x: -0.00086676, y: -0.00010128266, z: 0.18231669}
---- !u!114 &1860212533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1860212529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6a81939b61fdd44a8b3fbce2e25cdd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  chairIn: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1550514412580984892, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1 &1862150253
 GameObject:
   m_ObjectHideFlags: 0
@@ -17912,6 +18056,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &1889339260
 MonoBehaviour:
@@ -18344,6 +18500,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   interactionText: Torch
 --- !u!114 &1921698878
 MonoBehaviour:
@@ -18603,13 +18771,13 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1474547971}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1474547970}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1474547972}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1474547975}
   m_SourcePrefab: {fileID: 100100000, guid: 2692f8823e56dc34cb8078ff415789a1, type: 3}
 --- !u!1001 &2003105140
 PrefabInstance:
@@ -19245,6 +19413,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2067039662}
         m_TargetAssemblyTypeName: ToggleTorch, Assembly-CSharp
         m_MethodName: toggleTorch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 456112581}
+        m_TargetAssemblyTypeName: Objective, Assembly-CSharp
+        m_MethodName: CompleteObjective
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -25,7 +25,6 @@ public class ToggleTorch : MonoBehaviour
         Light light = GetComponentInChildren<Light>();
         if (torchLit)
         {
-
             Mesh temp = meshFilter.mesh;
             
             meshFilter.mesh = newMesh;

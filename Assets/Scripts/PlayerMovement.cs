@@ -17,14 +17,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        
-        
         moveDirection.Normalize();
         moveDirection.y = -1f;
 
         controller.Move(moveDirection * moveSpeed * Time.deltaTime);
-       
     }
 
     public void AddMoveInput(float forwardInput, float rightInput)
@@ -38,7 +34,4 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = (forwardInput * forward) + (rightInput * right);
     }
-
-    
-   
 }

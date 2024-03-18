@@ -18,9 +18,9 @@ public class Tableclear : MonoBehaviour
     {
         if(!isCleared)
         {
+            clearedItems++;
             transform.position = shelfLocation.position;
             isCleared = true;
-            clearedItems++;
         }
     }
     

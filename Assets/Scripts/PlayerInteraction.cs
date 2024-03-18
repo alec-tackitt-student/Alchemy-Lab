@@ -9,12 +9,7 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private Text interactableName;
 
     private InteractionObject targetInteraction;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
+ 
     // Update is called once per frame
     void Update()
     {

@@ -10,7 +10,4 @@ public class Escape : MonoBehaviour
     {
         hasTriedEscape = false;
     }
-
-    
-  
 }

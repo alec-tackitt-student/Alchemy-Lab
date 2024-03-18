@@ -21,11 +21,6 @@ public class PlayerCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-       
-    }
     private void LateUpdate()
     {  
         Quaternion newRotation = Quaternion.Euler(xAxis, yAxis, 0f);

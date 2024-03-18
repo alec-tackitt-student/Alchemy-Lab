@@ -7,7 +7,6 @@ public class Objective : MonoBehaviour
 {
 
     [SerializeField] private string objectiveText = "objective 1";
-    [SerializeField] private string completedText = "completed objective";
     [SerializeField] private Text objectiveDisplay;
 
     public UnityEvent OnCompleteObjective = new UnityEvent();
@@ -17,15 +16,10 @@ public class Objective : MonoBehaviour
     {
         objectiveDisplay.text = objectiveText;
     }
-    void Start()
-    {
-        
-    }
     public void CompleteObjective()
     {
         if (gameObject.activeSelf)
         {
-
             //specific for moving a chair (objective 1)
 
             if (gameObject.name == "Objective 1")
@@ -42,7 +36,6 @@ public class Objective : MonoBehaviour
                 }
                 else { return; }
             }
-
 
             //specific for making a mess (objective 2
             
@@ -98,8 +91,7 @@ public class Objective : MonoBehaviour
 
                     gameObject.SetActive(false);
                     Escape.hasTriedEscape = true;
-                    
-                   
+
                 }
                 else { return; }
             }

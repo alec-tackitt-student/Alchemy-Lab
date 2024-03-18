@@ -12,15 +12,8 @@ public class ShelfPull : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        itemsPulled = 0;
+        itemsPulled = 0; 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void shelfPull()
     {
         itemsPulled++;
