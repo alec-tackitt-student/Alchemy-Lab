@@ -33,8 +33,6 @@ public class ShelfPull : MonoBehaviour
         body.AddExplosionForce(150f, vector3, 10f);
 
         hasBeenPulled = true;
-            print(itemsPulled);
-        
        } 
     }
 }

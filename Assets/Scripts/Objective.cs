@@ -73,7 +73,64 @@ public class Objective : MonoBehaviour
                 else { return; }
             }
 
-            
+            //specific for clearing table (objective 4)
+            if (gameObject.name == "Objective 4")
+            {
+                if(Tableclear.clearedItems == 10)
+                {
+                    objectiveDisplay.text = "";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+                }
+                else { return; }
+            }
+
+            //specific for trying to leave the first time (objective 5)
+            if (gameObject.name == "Objective 5")
+            {
+                if (!Escape.hasTriedEscape)
+                {
+                    objectiveDisplay.text = "";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+                    Escape.hasTriedEscape = true;
+                    
+                   
+                }
+                else { return; }
+            }
+
+            //specific for turning off all the torches (objective 6)
+            if (gameObject.name == "Objective 6")
+            {
+                if (ToggleTorch.torchesOff == 14)
+                {
+                    objectiveDisplay.text = "";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+                }
+                else { return; }
+            }
+
+            //specific for leaving (objective 7)
+            if (gameObject.name == "Objective 7")
+            {
+                if (Escape.hasTriedEscape)
+                {
+                    objectiveDisplay.text = "Game Completed";
+
+                    OnCompleteObjective.Invoke();
+
+                    gameObject.SetActive(false);
+                   
+                }
+            }
         }
     }
 }
