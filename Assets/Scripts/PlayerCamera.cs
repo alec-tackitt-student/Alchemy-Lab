@@ -7,8 +7,8 @@ public class PlayerCamera : MonoBehaviour
 
     private float xAxis;
     private float yAxis;
-    public float xAxisTurnRate = 360f;
-    public float yAxisTurnRate = 360f;
+    public static float xAxisTurnRate = Settings.currentSensitivity;
+    public static float yAxisTurnRate = Settings.currentSensitivity;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +26,10 @@ public class PlayerCamera : MonoBehaviour
         Quaternion newRotation = Quaternion.Euler(xAxis, yAxis, 0f);
 
         Camera.main.transform.rotation = newRotation;
+
+        xAxisTurnRate = Settings.currentSensitivity;
+        yAxisTurnRate = Settings.currentSensitivity;
+
     }
 
     public void AddXAxisInput(float xAxisInput)

@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class InputHandler : MonoBehaviour
 {
 
     PlayerCamera playerCamera;
     PlayerMovement playerMovement;
     PlayerInteraction playerInteraction;
+    public static KeyCode interactKey = KeyCode.F;
 
     // Start is called before the first frame update
     void Start()
@@ -40,9 +42,14 @@ public class InputHandler : MonoBehaviour
 
     void HandleInteractionInput()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        if (Input.GetKeyDown(interactKey))
         {
             playerInteraction.TryInteract();
+        }
+
+        if(Input.GetKeyDown(KeyCode.Escape)) 
+        {
+            GameManager.LoadScene("Main Screen");
         }
     }
 }
